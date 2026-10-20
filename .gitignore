@@ -1,0 +1,20 @@
+# Data and outputs: never in the repository
+inputs/
+Output/
+*.xlsx
+*.xls
+*.csv
+*.rds
+*.RData
+*.Rhistory
+.Rproj.user/
+_backup*/
+
+# InDesign part: kept private
+src/07_indesign_exports.R
+src/08_indicator_dictionary.R
+src/11_fiches_indesign.R
+src/functions/rank_region_need.R
+src/tools/*.jsx
+src/tools/comparer_balises_indd.R
+*.indd
